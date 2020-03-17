@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="GameTest.cpp" />
+    <ClCompile Include="App\app.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="App\main.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="App\SimpleController.cpp">
+      <Filter>simple</Filter>
+    </ClCompile>
+    <ClCompile Include="App\SimpleSound.cpp">
+      <Filter>simple</Filter>
+    </ClCompile>
+    <ClCompile Include="App\SimpleSprite.cpp">
+      <Filter>simple</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="App\TextureLoader.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="CirclePhysics.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App\app.h">
+      <Filter>App\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="App\AppSettings.h">
+      <Filter>App\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="App\main.h">
+      <Filter>App\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>App\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>App\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="App\TextureLoader.h">
+      <Filter>App\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="App\SimpleController.h">
+      <Filter>simple\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="App\SimpleSound.h">
+      <Filter>simple\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="App\SimpleSprite.h">
+      <Filter>simple\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CirclePhysics.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="App">
+      <UniqueIdentifier>{a0b4ff56-7f6d-439d-ab07-e1b3a4f1801d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="simple">
+      <UniqueIdentifier>{df43b3f0-00e6-4994-954b-62dfb3acbe72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\headers">
+      <UniqueIdentifier>{a6801c22-3d28-44fe-893f-ba1115c919cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="simple\headers">
+      <UniqueIdentifier>{7a2dbbb6-94c1-4a5d-af59-50df2fe0eddc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
