@@ -368,6 +368,7 @@ MigrationBackup/
 # Compiled Dynamic libraries
 *.so
 *.dylib
+*.dll
 
 # Fortran module files
 *.mod
@@ -377,6 +378,7 @@ MigrationBackup/
 *.lai
 *.la
 *.a
+*.lib
 
 # Executables
 *.exe
