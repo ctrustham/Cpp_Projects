@@ -389,4 +389,5 @@ MigrationBackup/
 
 # Dont ignore Glut libs
 
-!*/*/glut/*
+!*/freeglut.dll
+!*/freeglut.lib
