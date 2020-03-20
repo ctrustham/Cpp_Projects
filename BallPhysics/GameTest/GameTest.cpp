@@ -1,3 +1,13 @@
+/*
+Originally created by Ubidoft Toronto for NXT Challenge 2020
+Edited By Craig Trustham
+using https://www.youtube.com/watch?v=LPzyNOHY3A4 for reference.
+
+Last update: March 17 2020
+
+saved with 'Unicode (UTF-8 with signature) - Codepage 65001' to have unicode in equations
+*/
+
 //------------------------------------------------------------------------
 // GameTest.cpp
 //------------------------------------------------------------------------
@@ -163,11 +173,11 @@ void Render()
 	//testSprite2->Draw();
 	//------------------------------------------------------------------------
 	circlePhys->DrawCircles();
-	circlePhys->drawLines();
+	circlePhys->DrawLines();
 	//------------------------------------------------------------------------
 	// Example Text.
 	//------------------------------------------------------------------------
-	App::Print(100, 100, "Sample Text");
+	//App::Print(100, 100, "Sample Text");
 }
 //------------------------------------------------------------------------
 // Add your shutdown code here. Called when the APP_QUIT_KEY is pressed.
